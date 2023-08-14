@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+body{
+    background-color: rgb(228,231,237) !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+.head{
+    background-image: linear-gradient(to right, #5e5ab3, #9a518e, #a8596d, #a06b5e, #907b65);
+}
+.btn2{
+    background-color: rgb(236,102,17) !important;
+}
+a,.span-1{
+    color: #56bfdc !important;
+}
+.free{
+  font-size: 14px !important;
+}
+.sign-in{
+  font-size: 11px !important;
+}
+.plan{
+  font-size: 18px !important;
+}
+.terms{
+    font-size: 12px !important;
+}
+.hr{
+  color: gray !important;
+}
+.btn1{
+    background-color: rgb(236,102,17) !important;
+    font-size: 14px;
+    padding: 12px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn1:hover{
+  background-color: rgb(236,102,17) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.add,.input-group-text, [type="password"]{
+    background-color: rgb(245,246,250) !important;
+    height: 50px;
   }
+
+.input-group-text a{
+    color: #8F9098 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (max-width: 575px) {
+  .order {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media only screen and (max-width: 350px) {
+  .sign-in {
+    font-size: 12px;
+    text-align: center !important;
+    margin: 15px 0px !important;
+    }
+    .password,.last{
+      margin-top: 8px;
+    }
+    .order{
+      margin-top: 8px;
+    }
 }
